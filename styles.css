@@ -1,0 +1,94 @@
+body{
+    font-family:'Inter';
+    font-weight:500;
+    font-size: 20px;
+    background-color: white;
+    background-size:cover;
+    letter-spacing: .2px;
+    padding:20px;
+}
+
+.container{
+    max-width: 625px;
+    padding-top:220px;
+    margin: auto;
+}
+
+.title{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.item{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.nav{
+    padding-top: 10px;
+}
+
+.list{
+    margin-top: 0;
+    margin:0;
+    padding:0;
+}
+
+.bullets{
+    margin: 10px 0 10px 0;
+
+}
+
+.list-item{
+    list-style-type:none;
+
+}
+
+a{
+text-decoration: underline;
+color: black;
+}
+
+.toggle{
+    padding-top: 10px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.dark-mode a{
+    color: white;
+}
+
+img {
+    border: .5px solid #fff;
+  }
+
+  img:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:690px){
+body{
+    font-size: 28px;
+}
+
+.container{
+    padding-top:50px;
+}
+
+.nav{
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+img.square{
+    min-width: 20px;
+    min-height: 20px;
+}
+
+}

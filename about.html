@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- make the dark mode carry over onto new page--->
+<!-- link to pages--->
+<html>
+    <head>
+        <title>Jacob Rizzuto</title>
+        <link rel="icon" type="image/png" href="images/3265.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <!-- CSS reset to help clean up formatting across different web browsers--->
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <ul class>
+                <li class="bullets">In 2021, I launched <a href="https://anywhere.pennydrops.org/">PennyDrops Anywhere</a> with some friends at McGill University. </li>
+                <li class="bullets">In 2022, I passed the CPA exam and joined <a href="https://www.bdc.ca/en">BDC</a> post-graduation as a strategy analyst for the bank's venture capital platform. </li>
+                <li class="bullets">In 2023, I joined the finance & ops team of <a href="https://www.thesymmetrical.org/">The Symmetrical DAO.</a> </li>
+                <li class="bullets">These days, I am spending my nights and weekends learning more about onchain treasury management.</li>
+            </ul>
+            <div class="nav">
+                    <ul class="list">
+                        <li class="list-item"><a href="index.html">home</a></li>
+                    </ul>
+            </div>
+            <div class="toggle">
+                <img class="square" src="images/Square-blk.jpg" alt="dark mode" style="width:10px;height:10px;" onclick="myFunction()"Toggle dark mode>
+            </div>
+        </div>
+
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
+            
+    </body>
+</html>
